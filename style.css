@@ -1,0 +1,22 @@
+/*seletor padrão a ser inserido em todo css*/
+/*é a configuração incial*/
+*{
+    margin: 0;
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+}
+/**/
+header{
+    height: 120px;
+    box-shadow: 0 0 0.5em #0004;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center; 
+}
+header > nav > a{
+    font-size: 24px;
+    text-decoration: none;
+    color: #777777; 
+}
