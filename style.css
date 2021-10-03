@@ -8,15 +8,45 @@
 }
 /**/
 header{
-    height: 120px;
+    height: 122px;
+    /*comando para sombrear o header. Informamos o terceiro valor*/
+    /*informamos o terceiro valor, pois é um 'blur' que estamos fazendo*/
     box-shadow: 0 0 0.5em #0004;
     display: flex;
+     /*para que os botoes de navegação vão para a direita*/
     flex-direction:row;
     justify-content: space-between;
+     /*para que os botões de navegação fiquem centralizados*/
+     /*em relação ao logo*/
     align-items:center; 
-}
+    }
+ /*Aqui vamos estilizar os botos de navegação*/
+  /*que estão contidos no header*/
+  /*Atenção aqui na sintaxe para que*/
+  /*fique bem explícito*/
 header > nav > a{
-    font-size: 24px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
     text-decoration: none;
     color: #777777; 
 }
+/*com essa entrada, ajustamos o padding tanto na*/
+/*imagem, como nos botões de navegação*/
+header > nav > a, header > nav > img{
+    padding: 0 20px;
+}
+/*A estilização do header está encerrada neste ponto*/
+footer{
+    background-color:magenta;
+    justify-content: space-around;
+    height:248px;
+    color:white;
+    font-family: sans-serif;
+    text-align: left;
+}
+p{
+    padding-left: 14px;
+}
+  
+
