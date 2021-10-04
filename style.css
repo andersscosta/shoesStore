@@ -36,10 +36,15 @@ header > nav > a{
 header > nav > a, header > nav > img{
     padding: 0 20px;
 }
-h1{
-    align-items: center;
+.chamada{
+    font-size: 30px;
+    font-weight: 800;
     font-family: sans-serif;
-}
+    color: black;
+    position: absolute;
+    left: 19%;
+    align-items: center;
+      }
 /*A estilização do header está encerrada neste ponto*/
 footer{
     height:248px;
@@ -62,12 +67,21 @@ p{
 /*Aqui inicio a estlização das listas no footer*/
 li{
 /*com o comando abaixo, retirei os marcadores das listas*/
-    list-style-type:none;
+    list-style-type: none;
 /*abaixo, padronizei a fonte de todas as listas*/
     font-size:20px;
 /*o comando abaixo deveria remover a aparência de hiperlink de todos*/
 /*os itens da lista, porém, não funcionou na prática*/
     text-decoration:none; 
+}
+footer div ul li a{
+    text-decoration: none;
+    text-decoration-color: initial;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-thickness: initial;
+    color: #FFFF;
+    position: relative;
 }
 /*Vamos começar a estilizar o banner central*/
 .middle{
@@ -75,16 +89,25 @@ li{
     width: 1280px;
     height: 662px;
     align-items:flex-end;
-    padding-top: 250px;
+    padding-top: 230px;
+    position: relative;
 
 }
 .oferta{
     font-size: 44px;
+    font-weight: bold;
     font-family: sans-serif;
     color:white;
-     
-   
-    
+    position: absolute;
+    top: 14%;
+    left: 30%;
+            
+}
+.banners{
+    padding-top: 120px;
+}
+.banner{
+    padding-bottom:35px;
 }
 
 
