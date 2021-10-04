@@ -36,17 +36,41 @@ header > nav > a{
 header > nav > a, header > nav > img{
     padding: 0 20px;
 }
+h1{
+    align-items: center;
+    font-family: sans-serif;
+}
 /*A estilização do header está encerrada neste ponto*/
 footer{
-    background-color:magenta;
-    justify-content: space-around;
     height:248px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:magenta;
     color:white;
     font-family: sans-serif;
-    text-align: left;
+    align-items:center;
+    padding-right: 55px;
+    padding-left: 5px;
+    align-items:center; 
 }
+/*Aqui temos ajuste para a estilização do texto, abaixo do logo*/
 p{
     padding-left: 14px;
+    font-size: 14px;
 }
+/*Aqui inicio a estlização das listas no footer*/
+li{
+/*com o comando abaixo, retirei os marcadores das listas*/
+    list-style-type:none;
+/*abaixo, padronizei a fonte de todas as listas*/
+    font-size:20px;
+/*o comando abaixo deveria remover a aparência de hiperlink de todos*/
+/*os itens da lista, porém, não funcionou na prática*/
+    text-decoration:none; 
+}
+
+
+
   
 
