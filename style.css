@@ -54,7 +54,7 @@ footer{
     padding-left: 5px;
     align-items:center; 
 }
-/*Aqui temos ajuste para a estilização do texto, abaixo do logo*/
+/*Aqui temos o ajuste para a estilização do texto, abaixo do logo*/
 p{
     padding-left: 14px;
     font-size: 14px;
@@ -68,6 +68,23 @@ li{
 /*o comando abaixo deveria remover a aparência de hiperlink de todos*/
 /*os itens da lista, porém, não funcionou na prática*/
     text-decoration:none; 
+}
+/*Vamos começar a estilizar o banner central*/
+.middle{
+    background-color: magenta;
+    width: 1280px;
+    height: 662px;
+    align-items:flex-end;
+    padding-top: 250px;
+
+}
+.oferta{
+    font-size: 44px;
+    font-family: sans-serif;
+    color:white;
+     
+   
+    
 }
 
 
