@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 /*seletor padrão a ser inserido em todo css*/
 /*é a configuração incial*/
 *{
@@ -6,6 +7,7 @@
     border:0;
     box-sizing: border-box;
 }
+
 /**/
 header{
     height: 122px;
@@ -38,6 +40,16 @@ header > nav > a, header > nav > img{
 }
 
 /*A estilização do header está encerrada neste ponto*/
+
+.banner{
+    width: 98.9vw;
+        
+}
+
+.banner > img{
+    width:100%;
+}
+
 .chamada{
     height: 232px;
     font-size: 30px;
@@ -49,8 +61,9 @@ header > nav > a, header > nav > img{
     color: black;
       }
 .banners{
+    display: flex;
     justify-content: space-around;
-    padding-bottom: 250px;
+    padding-bottom: 220px;
 }
 
 .oferta{
@@ -59,7 +72,7 @@ header > nav > a, header > nav > img{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 60px;
+    font-size: 44px;
     font-family: sans-serif;
     color: white;
     font-weight: 800;
@@ -70,10 +83,63 @@ header > nav > a, header > nav > img{
     height: 496.5px;
     background-color: magenta;
     display: flex;
-    justify-content: center;
-    align-items:flex-start
+    justify-content: space-around;
+    align-items:flex-start;
 }
 
+/*o container é o bloco de texto e imagens logo após o bloco cor de rosa*/
+.container{
+    height:939px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 163px;
+          
+}
+.image12{
+    height:663px;
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+    margin-top: 69px;
+}
+.image11{
+    height:939px;
+    display: flex;
+   
+     
+}
+
+.figuras{
+    display: flex;
+}
+
+
+.palavras{
+    flex-direction: column;
+    
+}
+
+.texto{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color:black
+}
+
+.box{
+    height: 99px;
+    width: 403px;
+    background-color: magenta;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color:white;
+    margin-top: 40px;
+}
 footer{
     height:248px;
     display:flex;
@@ -86,9 +152,10 @@ footer{
     padding-right: 55px;
     padding-left: 5px;
     align-items:center; 
+    margin-top: 116px;
 }
 /*Aqui temos o ajuste para a estilização do texto, abaixo do logo*/
-p{
+.text{
     padding-left: 14px;
     font-size: 14px;
 }
